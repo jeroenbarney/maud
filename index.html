@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel='stylesheet' id='bootstrap.css-css' href='./assets/bootstrap.css?ver=5.0.3' type='text/css' media='all'/>
+    <link rel='stylesheet' id='main_css-css' href='./assets/style.css?ver=5.0.3' type='text/css' media='all'/>
+    <link rel='stylesheet' id='fontawesome-css'
+          href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css?ver=5.0.3'
+          type='text/css' media='all'/>
+    <link rel='stylesheet' id='wp-block-library-css'
+          href='https://maud.jvbarneveld.nl/wp-includes/css/dist/block-library/style.min.css?ver=5.0.3' type='text/css'
+          media='all'/>
+    <script type='text/javascript' src='./assets/jquery.js?ver=5.0.3'></script>
+    <script type='text/javascript' src='./assets/bootstrap.js?ver=5.0.3'></script>
+    <script type='text/javascript' src='./assets/script.js?ver=5.0.3'></script>
+    <title>Maud van Engelenhoven</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script>
+        window.addEventListener('load', () => {
+            const age = new Date(Date.now() - new Date(1993, 10, 7).getTime()).getUTCFullYear() - 1970;
+            [...document.querySelectorAll('.age')].forEach(item => item.innerText = age);
+        });
+    </script>
+</head>
+<body class="home blog">
+<div class="container">
+    <div class="row">
+        <div class="col-xs-12">
+            <div id="photo-header" class="text-center">
+                <div id="photo">
+                    <img src="./assets/image.png" alt="">
+                </div>
+                <div id="text-header">
+                    <h1>
+                        <span>Maud</span>
+                        &nbsp;van Engelenhoven&nbsp;
+                        <sup class="age"></sup>
+                    </h1>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="pull-right col-xs-12 col-sm-5">
+            <div class="row">
+                <div class="col-xs-12 col-print-6 box clearfix">
+                    <h2>Personalia</h2>
+                    <div class="contact-item">
+                        <div class="icon pull-left text-center">
+                            <span class="fa fa-tag fa-fw"></span>
+                        </div>
+                        <div class="title only pull-right">
+                            Maud van Engelenhoven
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <div class="icon pull-left text-center">
+                            <span class="fa fa-map-marker fa-fw"></span>
+                        </div>
+                        <div class="title only pull-right">
+                            <a href="https://goo.gl/maps/wKTXeaqHKLQ2" target="_blank">Ede, Nederland</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="icon pull-left text-center">
+                            <span class="fa fa-birthday-cake fa-fw"></span>
+                        </div>
+                        <div class="title only pull-right">
+                            7 November 1993 (<span class="age"></span>)
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="icon pull-left text-center">
+                            <span class="fa fa-drivers-license-o fa-fw"></span>
+                        </div>
+                        <div class="title only pull-right">
+                            Rijbewijs B (10-07-2012)
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="icon pull-left text-center">
+                            <span class="fa fa-envelope fa-fw"></span>
+                        </div>
+                        <div class="title only pull-right">
+                            <a href="mailto:maud.engelenhovenvan@gmail.com">maud.engelenhovenvan@gmail.com</a>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <div class="icon pull-left text-center">
+                            <span class="fa fa-linkedin fa-fw"></span>
+                        </div>
+                        <div class="title only pull-right">
+                            <a target="_blank" href="https://nl.linkedin.com/in/maud-van-engelenhoven-99297144">linkedin.nl/in/maudvanengelenhoven</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-print-6">
+                    <div class="box">
+                        <h2>Over mij</h2>
+                        <p>Ordelijk, rustig en behulpzaam, op deze manier ga ik te werk. Ik werk graag samen met
+                            collega's en andere afdelingen, maar zelfstandig weet ik mijn vaardigheden ook goed in te
+                            zetten. Ik sta open voor feedback en wil graag mijn vaardigheden verder ontwikkelen.</p>
+                    </div>
+                    <div class="box">
+                        <h2>Hobby's</h2>
+                        <div class="hobby">Piano spelen</div>
+                        <div class="hobby">Lezen</div>
+                        <div class="hobby">Boksen</div>
+                        <div class="hobby">Gaming events bezoeken</div>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <h2>Talen</h2>
+                <div id="language-skills">
+                    <div class="skill">
+                        Nederlands
+                        <div class="pull-right">
+                            <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i
+                                class="fa fa-star"></i><i class="fa fa-star-half-o"></i></div>
+                    </div>
+                    <div class="skill">
+                        Engels
+                        <div class="pull-right">
+                            <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i
+                                class="fa fa-star-half-o"></i><i class="fa fa-star-o"></i></div>
+                    </div>
+                </div>
+            </div>
+            <div class="box skills-wrapper">
+                <h2>Vaardigheden</h2>
+                <div class="skills">
+                    <div class="item-skills" data-percent="90">
+                        FMIS: Topdesk
+                    </div>
+                    <div class="item-skills" data-percent="85">
+                        Office (Word, Excel, PowerPoint, etc.)
+                    </div>
+                    <div class="item-skills" data-percent="90">
+                        Communicatief
+                    </div>
+                    <div class="item-skills" data-percent="95">
+                        Plannen en organiseren
+                    </div>
+                    <div class="item-skills" data-percent="85">
+                        Klantvriendelijk
+                    </div>
+                    <div class="item-skills" data-percent="80">
+                        Nauwkeurigheid
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-xs-12 col-sm-7">
+            <div class="box">
+                <h2>Werkervaring</h2>
+                <ul id="education" class="clearfix">
+                    <li>
+                        <div class="year pull-left">
+                            2016
+                        </div>
+                        <div class="description pull-right">
+                            <h3>April 2016 - heden</h3>
+                            <h4>Partou Kinderopvang</h4>
+                            <section>
+                                <p>
+                                    <b>Functie:</b> Medewerker facilitaire servicedesk<br>
+                                    <b>Locatie:</b>
+                                    <a target="_blank" href="https://goo.gl/maps/JvGi3hhwmDKpLnzm8">
+                                        Sportlaan 1, Vianen </a>
+                                </p>
+                                <p>
+                                    <b>Werkzaamheden:</b>
+                                    <br>
+                                <p>Ondersteunen van ruim 400 vestigingen door heel Nederland op alle facilitaire vlakken
+                                    (hard en soft services). Complexe vraagstukken, met name rondom schoonmaak,
+                                    wagenpark en inventaris. Direct aansturen van leveranciers en toetsen of zij aan de
+                                    gestelde SLA&#8217;s voldoen.</p>
+                                </p>
+                            </section>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="year pull-left">
+                            2015
+                        </div>
+                        <div class="description pull-right">
+                            <h3>November 2015 - April 2016</h3>
+                            <h4>Partou Kinderopvang</h4>
+                            <section>
+                                <p>
+                                    <b>Functie:</b> Stagiaire facilitaire servicedesk<br>
+                                    <b>Locatie:</b>
+                                    <a target="_blank" href="https://goo.gl/maps/ythh52EteFe12Vnt8">
+                                        Sportlaan 1, Vianen </a>
+                                </p>
+                                <p>
+                                    <b>Werkzaamheden:</b>
+                                    <br>
+                                <p>Afstudeeronderzoek met als onderwerp: &#8216;De waarde van interne klanttevredenheid&#8217;.<br/>
+                                    Daarnaast heb ik de facilitaire servicedesk ondersteund waar nodig met de reguliere
+                                    werkzaamheden.</p>
+                                </p>
+                            </section>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="year pull-left">
+                            2013
+                        </div>
+                        <div class="description pull-right">
+                            <h3>Juli 2013 - December 2015</h3>
+                            <h4>Thuiszorgorganisatie AllerZorg</h4>
+                            <section>
+                                <p>
+                                    <b>Functie:</b> Huishoudelijke verzorging<br>
+                                    <b>Locatie:</b>
+                                    <a target="_blank" href="https://goo.gl/maps/PQoqT7y35yU9m9Qx9">
+                                        Grootzeil 2, Zeewolde </a>
+                                </p>
+                                <p>
+                                    <b>Werkzaamheden:</b>
+                                    <br>
+                                <p>Huishoudelijke verzorging en bijkomstigheden, met name bij ouderen, in omgeving
+                                    Zeewolde en Harderwijk.</p>
+                                </p>
+                            </section>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="year pull-left">
+                            2015
+                        </div>
+                        <div class="description pull-right">
+                            <h3>Februari 2015 - Juli 2015</h3>
+                            <h4>Cibap vakschool voor verbeelding</h4>
+                            <section>
+                                <p>
+                                    <b>Functie:</b> Afstudeeronderzoek<br>
+                                    <b>Locatie:</b>
+                                    <a target="_blank" href="https://goo.gl/maps/7TUw7nUURvjL9iLi8">
+                                        Nijverheidstraat 11, Zwolle </a>
+                                </p>
+                                <p>
+                                    <b>Werkzaamheden:</b>
+                                    <br>
+                                <p>Afstudeeronderzoek naar huisvestingsplan voor het nieuw te openen pand.</p>
+                                </p>
+                            </section>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="year pull-left">
+                            2014
+                        </div>
+                        <div class="description pull-right">
+                            <h3>September 2014 - Januari 2015</h3>
+                            <h4>Kennispoort Regio Zwolle</h4>
+                            <section>
+                                <p>
+                                    <b>Functie:</b> Stagiaire evenementen organiseren<br>
+                                    <b>Locatie:</b>
+                                    <a target="_blank" href="https://goo.gl/maps/gzXp1wfpxNM11Hn69">
+                                        Hanzeplein 11, Zwolle </a>
+                                </p>
+                                <p>
+                                    <b>Werkzaamheden:</b>
+                                    <br>
+                                <p>Ondersteunen bij het organiseren van zakelijke evenementen.</p>
+                                </p>
+                            </section>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="year pull-left">
+                            2012
+                        </div>
+                        <div class="description pull-right">
+                            <h3>November 2012 - April 2012</h3>
+                            <h4>Dolfinarium Harderwijk</h4>
+                            <section>
+                                <p>
+                                    <b>Functie:</b> Stagiaire entertainment<br>
+                                    <b>Locatie:</b>
+                                    <a target="_blank" href="https://goo.gl/maps/7HE1DH7wamiRLkYv8">
+                                        Zuiderzeeboulevard 22, Harderwijk </a>
+                                </p>
+                                <p>
+                                    <b>Werkzaamheden:</b>
+                                    <br>
+                                <p>Ondersteunende taken manager entertainment en advies geven over inrichting
+                                    Roggenrif.</p>
+                                </p>
+                            </section>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="box">
+                <h2>Opleidingen</h2>
+                <div class="job clearfix">
+                    <div class="col-xs-3">
+                        <div class="where">Hogeschool Utrecht, Amersfoort</div>
+                        <div class="year">2011 - 2016</div>
+                    </div>
+                    <div class="col-xs-9">
+                        <div class="profession">
+                            HBO Facility Management
+                        </div>
+                        <em>Diploma behaald</em>
+                        <div class="description">Afstudeerrichting: mobiliteit & vrijetijd<br/>
+                            Minor: eventmanagement op Windesheim te Zwolle
+                        </div>
+                    </div>
+                </div>
+                <div class="job clearfix">
+                    <div class="col-xs-3">
+                        <div class="where">Corlaer College, Nijkerk</div>
+                        <div class="year">2006 - 2011</div>
+                    </div>
+                    <div class="col-xs-9">
+                        <div class="profession">
+                            HAVO
+                        </div>
+                        <em>Diploma behaald</em>
+                        <div class="description">Examenvakken: Nederlands, Engels, geschiedenis, economie, wiskunde A,
+                            management en organisatie (M&O) en maatschappijwetenschappen
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
