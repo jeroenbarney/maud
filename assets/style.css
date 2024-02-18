@@ -83,13 +83,6 @@ PHOTO (AVATAR)
     letter-spacing: -1px;
 }
 
-#text-header h1::first-line {
-    font-size: 1.5em;
-    letter-spacing: -4px;
-    font-weight: 800;
-    line-height: 1.5em;
-}
-
 #text-header h1 span {
     color: #F0563D;
 }
@@ -106,6 +99,14 @@ PHOTO (AVATAR)
     margin-top: 15px;
     content: '';
     display: block;
+}
+
+
+#text-header h1 {
+    font-size: 35px;
+    letter-spacing: -3px;
+    font-weight: 800;
+    line-height: 1.5em;
 }
 
 /*******************************************
@@ -143,13 +144,17 @@ EDUCATION
     list-style: none;
 }
 
+.page-break {
+    page-break-before: always;
+}
+
 #education:before {
     width: 5px;
-    height: 100%;
     position: absolute;
     left: 25px;
     top: 0;
-    content: ' ';
+    bottom: 0;
+    content: "";
     display: block;
     background: #ec7263;
     background: -moz-linear-gradient(top, #ffffff 0%, #ec7263 7%, #ec7263 89%, #ffffff 100%);
@@ -166,6 +171,7 @@ EDUCATION
     z-index: 2;
     position: relative;
     float: left;
+    page-break-inside: avoid;
 }
 
 #education .year {
@@ -453,6 +459,10 @@ MEDIA
         right: 5px;
         width: 75px;
     }
+
+    .education-wrapper {
+        page-break-before: always;
+    }
 }
 
 @media print {
@@ -460,7 +470,9 @@ MEDIA
         width: 50%;
     }
 
-    .skills-wrapper {
-        display: none;
+    .language-skills-wrapper {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 0 30px;
     }
 }
